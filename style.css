@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    background-color: lightgray; 
+}
+
+#main {
+    background-color: #f0f0f0; /* Light gray background for the container */
+    padding: 20px; /* Adds some padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow for better visual appearance */
+    width: 100%; /* Adjust width as needed */
+    max-width: 1200px; /* Limits the maximum width of the container */
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 100px;
+    background-color: hsl(234, 44%, 66%);;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#reset {
+    display: block;
+    margin: 50px auto 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: hsl(234, 44%, 66%);
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    color: white;
+
+}
+
+#intro {
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.row {
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.field {
+    width: 250px;
+    height: 100px;
+    font-size: 26px;
+    color: teal;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor :pointer;
+}
+#button1{
+    border-left : none;
+    border-top: none;
+}
+#button2{
+    border-top:none;
+}
+#button3{
+    border-top: none;
+    border-right: none;
+}
+#button4{
+    border-left: none;
+}
+#button6{
+    border-right: none;
+}
+#button7{
+    border-left:none;
+    border-bottom: none;
+}
+#button8{
+    border-bottom: none;
+}
+#button9{
+    border-right: none;
+    border-bottom: none;
+}
+#result{
+
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-style: bold;
+}

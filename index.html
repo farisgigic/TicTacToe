@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iks Oks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <div id="main">
+        <h1>Lets play!</h1>
+        <p id = "intro">Game starts, just press on button you want to play with !</p>
+        <div id="display">
+            <div class="row">
+                <input type="text" id="button1" class="field" onclick="button1();checking();" readonly>
+                <input type="text" id="button2" class="field" onclick="button2();checking();" readonly>
+                <input type="text" id="button3" class="field" onclick="button3();checking();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="button4" class="field" onclick="button4();checking()" readonly>
+                <input type="text" id="button5" class="field" onclick="button5();checking()" readonly>
+                <input type="text" id="button6" class="field" onclick="button6();checking()" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="button7" class="field" onclick="button7();checking()" readonly>
+                <input type="text" id="button8" class="field" onclick="button8();checking()" readonly>
+                <input type="text" id="button9" class="field" onclick="button9();checking()" readonly>
+            </div>
+        </div>
+        <button id="reset" onclick="reset();">Reset</button>
+        <br><br>
+        <p id="result"></p>
+    </div>
+    
+</body>
+<script src="javascript/index.js"></script>
+<script src="javascript/buttons.js"></script>
+</html>
